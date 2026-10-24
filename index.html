@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Morning, Future Dr. ♡</title>
+<meta name="theme-color" content="#ffdce8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ff8fb5;--rose:#ff6fa1;--ink:#633c67;--cream:#fff9f7;--lav:#e9ddff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Nunito,sans-serif;color:var(--ink);background:linear-gradient(135deg,#ffe5ee,#f1e7ff 52%,#fff3d9);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background-image:radial-gradient(#fff 2px,transparent 2px);background-size:27px 27px}
+.float{position:fixed;bottom:-40px;z-index:0;pointer-events:none;animation:floatUp linear forwards;opacity:.8}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+.wrap{position:relative;z-index:1;width:min(960px,92%);margin:28px auto 50px}
+.hero{text-align:center;padding:34px 22px 28px;background:#ffffffc9;border:2px solid #fff;border-radius:30px;box-shadow:0 18px 55px #b97ba52b;position:relative;overflow:hidden}
+.kicker{display:inline-block;background:#fff0f5;padding:8px 15px;border-radius:999px;font-weight:900;font-size:.85rem;letter-spacing:.04em}
+h1{font-family:Pacifico,cursive;font-weight:400;font-size:clamp(2.3rem,7vw,4.5rem);line-height:1.2;margin:18px 0 10px;color:#a04479}
+h1 span{display:block;color:#754b91}
+.subtitle{font-size:clamp(1rem,2.6vw,1.2rem);line-height:1.8;max-width:650px;margin:0 auto}
+.blink{display:inline-block;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.2)}}
+.art{margin:24px auto 0;max-width:820px;border-radius:24px;overflow:hidden;border:7px solid white;box-shadow:0 12px 30px #8b5b8125}
+.art img{display:block;width:100%;height:auto}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:20px 0}
+.card{background:#ffffffd9;border:2px solid #fff;border-radius:23px;padding:22px 18px;box-shadow:0 10px 25px #a77ba21c;transition:transform .25s}
+.card:hover{transform:translateY(-5px) rotate(-.5deg)}
+.emoji{font-size:2rem;display:block;margin-bottom:8px}
+.card h2{font-size:1.08rem;margin:0 0 8px;color:#a04479}
+.card p{margin:0;line-height:1.65}
+.note{background:linear-gradient(135deg,#ffedf4,#f6efff);border:2px dashed #f6a5c4;border-radius:26px;padding:26px;text-align:center;margin:20px 0}
+.note h2{font-family:Pacifico,cursive;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:400;margin:0 0 12px;color:#a04479}
+.note p{font-size:1.08rem;line-height:1.9;margin:0 auto;max-width:700px}
+.plan{background:#fffdfc;border-radius:26px;padding:24px;margin:20px 0;border:2px solid white}
+.plan h2{text-align:center;margin:0 0 16px;color:#a04479}
+.checks{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.check{display:flex;gap:10px;align-items:center;background:#fff3f7;padding:12px 14px;border-radius:15px;font-weight:800}
+.check input{accent-color:#e96b9c;width:18px;height:18px}
+.btnrow{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:22px 0}
+button{font:inherit;font-weight:900;border:0;border-radius:999px;padding:14px 21px;cursor:pointer;transition:transform .2s,box-shadow .2s}
+button:hover{transform:translateY(-3px);box-shadow:0 8px 18px #b66e9d33}
+.primary{background:linear-gradient(135deg,#ff8fb5,#ed78b2);color:white}
+.secondary{background:white;color:#8c578b;border:2px solid #f4c4d9}
+#secret{display:none;text-align:center;background:#fff;border-radius:24px;padding:24px;border:2px solid #ffd5e5;line-height:1.8;animation:appear .45s ease}
+@keyframes appear{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+footer{text-align:center;padding:24px 10px;font-weight:800}
+.tiny{font-size:.88rem;opacity:.8}
+@media(max-width:680px){.grid{grid-template-columns:1fr}.checks{grid-template-columns:1fr}.hero{padding:26px 15px}.card{padding:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="kicker">☀️ A LITTLE MORNING SURPRISE, MADE JUST FOR YOU ☀️</div>
+    <h1>Good Morning,<span>My Future Dr. ♡</span></h1>
+    <p class="subtitle">Aaj coaching ka <b>first day</b> hai, baby! 🥹🌷<br>
+    Naya chapter, naye dreams, aur aapke andar woh saari himmat jo aapko ek din Germany tak le jaayegi. 🇩🇪</p>
+    <div class="art"><img src="good-morning.png" alt="A cozy pastel good morning illustration for a future doctor"></div>
+  </header>
+
+  <section class="grid">
+    <article class="card"><span class="emoji">🩺</span><h2>Future Dr. loading…</h2><p>Har topic jo aap seekhengi, har test jo aap dengi — sab aapke bade sapne ki taraf ek chhota step hai.</p></article>
+    <article class="card"><span class="emoji">🧸</span><h2>Soft reminder</h2><p>Aapko first day par perfect nahi hona. Bas jaana hai, seekhna hai, aur khud par thoda sa bharosa rakhna hai.</p></article>
+    <article class="card"><span class="emoji">🇩🇪</span><h2>Germany is waiting</h2><p>Ek din white coat, stethoscope, aur aapka naam uske aage “Dr.” — socho kitna proud feel hoga! ♡</p></article>
+  </section>
+
+  <section class="note">
+    <h2>Ek baat dil se… 💌</h2>
+    <p>Baby, mujhe aap par abhi se bahut proud hai. Aapka dream bada hai, aur main chahta hoon ki aap usse paane ke liye har din thoda-thoda aage badhein. Kabhi din tough ho, toh yaad rakhna: ek difficult class ya ek bad test aapki capability decide nahi karta. <b>Aap kar sakti hain.</b> Aaram se saans lena, paani peena, aur apne aap ke saath kind rehna. Aaj bas apna best dena — baaki step by step. I’m cheering for you, always. 🩷</p>
+  </section>
+
+  <section class="plan">
+    <h2>🌸 Your tiny first-day checklist 🌸</h2>
+    <div class="checks">
+      <label class="check"><input type="checkbox"> Bag, notebook & pens ready</label>
+      <label class="check"><input type="checkbox"> Water bottle packed 💧</label>
+      <label class="check"><input type="checkbox"> Dhyaan se sunna, notes banana ✍️</label>
+      <label class="check"><input type="checkbox"> Kuch kha lena, please 🍓</label>
+      <label class="check"><input type="checkbox"> Khud par bharosa rakhna 💗</label>
+      <label class="check"><input type="checkbox"> Ghar aake rest bhi karna 🧸</label>
+    </div>
+  </section>
+
+  <div class="btnrow">
+    <button class="primary" onclick="showNote()">Open your tiny love note 💌</button>
+    <button class="secondary" onclick="sprinkle()">Send some good-luck hearts ✨</button>
+  </div>
+  <section id="secret">
+    <h2 style="font-family:Pacifico,cursive;font-weight:400;color:#a04479">For my favourite girl ♡</h2>
+    Aaj ka goal duniya jeetna nahi hai, meri jaan — bas ek naya din pyaar se start karna hai. 🌷<br>
+    Aap jitni mehnat karengi, utna apna dream kareeb laayengi. Aur result chahe jo bhi ho, apni value kabhi mat bhoolna.<br><b>Go shine, future doctor. I believe in you! 🩺🇩🇪🩷</b>
+  </section>
+  <footer>Made with a little love, lots of pride & infinite hearts ♡<br><span class="tiny">One day at a time. One dream at a time. 🌙 → ☀️</span></footer>
+</div>
+<script>
+function showNote(){const s=document.getElementById('secret');s.style.display='block';s.scrollIntoView({behavior:'smooth',block:'center'});sprinkle(18)}
+function sprinkle(count=12){const symbols=['♡','💗','✨','🌸','💕','⭐'];for(let i=0;i<count;i++){const el=document.createElement('span');el.className='float';el.textContent=symbols[Math.floor(Math.random()*symbols.length)];el.style.left=Math.random()*100+'vw';el.style.fontSize=(18+Math.random()*20)+'px';el.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(el);setTimeout(()=>el.remove(),6500)}}
+setTimeout(()=>sprinkle(8),800);
+</script>
+</body>
+</html>
